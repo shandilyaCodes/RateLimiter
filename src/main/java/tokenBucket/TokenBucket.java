@@ -3,7 +3,7 @@ package rateLimiter;
 public class TokenBucket {
 
     private final long maxBucketSize;
-    private final long refillRate; // x req per y sec
+    private final long refillRate; // x req per y sec 
 
     private double currentBucketSize;
     private long lastRefillTimeStamp;
